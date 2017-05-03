@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3  Date: 2015-12-28 15:25:04
+#encoding utf-8
+#
+# LM4041_fixed_SOT23
+#
+DEF LM4041_fixed_SOT23 U 0 40 Y Y 1 F N
+F0 "U" -150 50 60 H V C CNN
+F1 "LM4041_fixed_SOT23" 0 -550 59 H V C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+S -200 0 200 -450 0 1 0 N
+P 2 0 1 0  0 -250  0 -300 N
+P 2 0 1 0  0 -200  0 -150 N
+P 4 0 1 0  -60 -210  -50 -200  50 -200  60 -190 N
+P 4 0 1 0  -50 -250  50 -250  0 -200  -50 -250 N
+X V+ 1 0 50 59 D 50 39 1 1 I
+X V- 2 0 -500 59 U 50 39 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
